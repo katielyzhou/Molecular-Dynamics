@@ -1,2 +1,4 @@
 # Molecular-Dynamics
-Microcanonical MD simulation in Python
+Microcanonical molecular dynamics simulation using the velocity Verlet algorithm with a Lennard-Jones potential.
+
+Currently work in progress.
