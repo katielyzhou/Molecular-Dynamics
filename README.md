@@ -40,9 +40,9 @@ Thermodynamic properties:
 Simulation times will vary depending on the parameters as well as the computer specs. This took about 30 minutues to run.
 
 ## Comments and Further Work
-I have learnt quite a lot about both Python and molecular dynamics. The code is not optimised, though where possible I have tried (e.g. vectorising instead of using for loops). The code is also not rigorously tested - though the numbers for the energy and force agree with manual calculations for 2 and 3 particle systems.
+I have learnt quite a lot about both Python and molecular dynamics. Some caveats though are that the code is not optimised, though where possible I have tried (e.g. vectorising instead of using for loops), and that the code is not rigorously tested - though the numbers for the energy and force agree with manual calculations for 2 and 3 particle systems.
 
-There are many more things I could explore. Some future goals I would like to do are:
+There are many more things I could explore. Some future things I would like to do are:
 - Implement a thermostat for canonical (NVT) simulations.
 - Simulate molecules and/or mixtures.
 - Compute other thermodynamic and/or transport properties, e.g. self-diffusion coefficient.
