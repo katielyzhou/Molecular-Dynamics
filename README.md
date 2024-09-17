@@ -26,10 +26,16 @@ Below are the results for a simulation. The initial parameters were:
 <img src="https://github.com/user-attachments/assets/55c01aec-523b-438f-93b4-2ce8c59a17fd" width="500">
 <img src="https://github.com/user-attachments/assets/c455dd71-ce27-41f8-9d44-edad23ff1738" width="500">
 
+Visualisation with OVITO:
+
+(Files were generated every 20 steps, and the animation is 10 frames a second.)
+
+![simulation](https://github.com/user-attachments/assets/78bb7c21-3212-43ea-81e9-a36c3a025ab5)
+
 Thermodynamic properties:
 - Temperature: 1.814 +- 0.002
 - Pressure: 1.633 +- 0.002
-- Heat capacity = 1.188 x $10^{-6}$
+- Heat capacity: 1.188 x $10^{-6}$
 
 Simulation times will vary depending on the parameters as well as the computer specs. This took about 30 minutues to run.
 
