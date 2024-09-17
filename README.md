@@ -10,8 +10,18 @@ $$   U = 4 \epsilon [ (\frac{\sigma}{r})^{12} - (\frac{\sigma}{r})^6 ] $$
 
 where $U$ denotes the potential energy, $\epsilon$ the well depth, $\sigma$ the distance at which the potential is 0, and $r$ the distance between two particles.
 
+I have tested the code using reduced units, with the mass of a particle = $\epsilon$ = $\sigma$ = $k_{b}$ = 1. 
+
 ## Code
-The code can generate .xyz files for visualisation in software such as OVITO, as well compute properties such as temperture, pressure, heat capacity, and the self-diffusion coefficient. A radial distribution function is also produced.
+The code can generate .xyz files for visualisation in software such as OVITO, an example of a run being in the folder 'data'. The code can also compute properties such as temperture, pressure, heat capacity, and the self-diffusion coefficient. A radial distribution function is also produced.
+
+Below are the results for a simulation with the following parameters:
+- Number of time steps = 5000
+- Number of particles $N$ = 100
+- Side of the simulation box $L$ = 5
+- Cutoff distance = 2.5$\sigma$
+- Time step $dt$ = 0.01
+- Initial temperature $T$ = 1 (Note that this will change during the simulation run.)
 
 ## Comments and Further Work
 I have learnt quite a lot about both Python and molecular dynamics. The code is not optimised, though where possible I have tried (e.g. vectorising instead of using for loops). The code is also not rigorously tested - though the numbers for the energy and force agree with manual calculations for 2 and 3 particle systems.
