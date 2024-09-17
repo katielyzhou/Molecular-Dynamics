@@ -1,5 +1,5 @@
 # Molecular-Dynamics
-Microcanonical (NVE) molecular dynamics simulation of a Lennard-Jones monoatomic fluid using the velocity Verlet algorithm, inspired by [Frenkel & Smit’s **Understanding Molecular Simulations*](https://www.sciencedirect.com/book/9780122673511/understanding-molecular-simulation).
+Microcanonical (NVE) molecular dynamics simulation of a Lennard-Jones monoatomic fluid using the velocity Verlet algorithm, inspired by [Frenkel & Smit’s *Understanding Molecular Simulations*](https://www.sciencedirect.com/book/9780122673511/understanding-molecular-simulation).
 
 ## Background
 Molecular dynamics simulations allow the study a system of atoms or molecules through the use of Newton's equations to predict their trajectories. This allows various thermodynamic properties to be calculated, as well as providing information on the system's structure.
@@ -16,9 +16,9 @@ I have tested the code using reduced units, with the mass of a particle = $\epsi
 The code can generate .xyz files for visualisation in software such as OVITO, an example of a run being in the folder 'data'. The code can also compute properties such as temperture, pressure, heat capacity, and the self-diffusion coefficient. A radial distribution function is also produced.
 
 Below are the results for a simulation with the following parameters:
-- Number of time steps = 5000
-- Number of particles $N$ = 100
-- Side of the simulation box $L$ = 5
+- Number of time steps = 2000
+- Number of particles $N$ = 800
+- Side of the simulation box $L$ = 10
 - Cutoff distance = 2.5$\sigma$
 - Time step $dt$ = 0.01
 - Initial temperature $T$ = 1 (Note that this will change during the simulation run.)
