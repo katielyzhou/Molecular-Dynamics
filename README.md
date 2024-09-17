@@ -16,10 +16,10 @@ I have tested the code using reduced units, with the mass of a particle = $\epsi
 The code can generate .xyz files for visualisation in software such as OVITO, an example of a run being in the folder 'data'. The code can also compute properties such as temperture, pressure, and heat capacity. A radial distribution function is also produced.
 
 Below are the results for a simulation with the following parameters:
-- Number of time steps = 2000
-- Number of particles $N$ = 800
-- Side of the simulation box $L$ = 10
-- Cutoff distance = 2.5 $\sigma$
+- Number of time steps = 5000 (Doesn't actually need to be anywhere near this high as the system equilibrates quite quickly, but it does allow the initial equilibration to be averaged out and produces a smoother radial distribution function).
+- Number of particles $N$ = 900
+- Side of the simulation box $L$ = 10 (Density is therefore 0.9)
+- Cutoff distance = 3 $\sigma$
 - Time step $dt$ = 0.01
 - Initial temperature $T$ = 1 (Note that this will change during the simulation run, but will then remain roughly constant.)
 
