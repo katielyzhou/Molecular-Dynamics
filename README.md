@@ -22,6 +22,10 @@ Reduced units are used in the code, with the mass of a particle = $\epsilon$ = $
 ## Code
 The code can generate .xyz files for visualisation in software such as OVITO, an example of a run being in the folder 'data'. The code can also compute properties such as temperture and pressure. A radial distribution function is also produced.
 
+### Requirements
+- NumPy
+- Matplotlib
+
 ### Example
 Below are the results for a simulation. I used similar conditions as a case study in F&S. The parameters were:
 - Number of time steps = 2500 (Doesn't actually need to be near this high as the system equilibrates quite quickly, but it does allow the initial equilibration to be averaged out and produces a smoother radial distribution function).
@@ -50,7 +54,7 @@ Compared to the F&S case study (108 particles, T = 0.728, density = 0.8442):
 
 The errors calculated from mine are the standard errors, whilst F&S are from block averages. Differences in the values are due the differences in the initial conditions (position and velocity).
 
-### Visualisation with OVITO:
+### Visualisation with OVITO
 
 Files were generated every 20 steps, and the animation is 25 frames a second. The particles' size have been scaled down to 50%.
 
