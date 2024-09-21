@@ -20,7 +20,7 @@ $U_{LJ}$ denotes the Lennard-Jones potential, $\epsilon$ the well depth, $\sigma
 Reduced units are used in the code, with the mass of a particle = $\epsilon$ = $\sigma$ = $k_{b}$ = 1. SI units could be used with care taken for conversions.
 
 ## Code
-The code can generate .xyz files for visualisation in software such as OVITO, an example of a run being in the folder 'data'. The code can also compute properties such as temperture, pressure, and heat capacity. A radial distribution function is also produced.
+The code can generate .xyz files for visualisation in software such as OVITO, an example of a run being in the folder 'data'. The code can also compute properties such as temperture and pressure. A radial distribution function is also produced.
 
 ### Example
 Below are the results for a simulation. I used similar conditions as a case study in F&S. The parameters were:
