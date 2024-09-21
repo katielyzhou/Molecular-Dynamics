@@ -34,19 +34,27 @@ Below are the results for a simulation. I used similar conditions as a case stud
 <img src="https://github.com/user-attachments/assets/be365dba-b95e-4556-af90-01c9e01dfb5b" width="500">
 <img src="https://github.com/user-attachments/assets/585cf6fb-9cde-4010-b779-0382af99993f" width="500">
 
+Simulation times will vary depending on the parameters as well as the computer specs. This took about a minute to run, or 30 seconds if I chose not to save the position data.
+
 Thermodynamic properties:
 - Temperature: 1.56234 +/- 0.00885
 - Pressure: 5.61335 +/- 0.05588
-- Kinetic energy per particle: 1.34351 +/- 0.01327
+- Kinetic energy per particle: 2.34351 +/- 0.01327
 - Potential energy per particle: -4.33205 +/- 0.01336
+
+Compared to the F&S case study (108 particles, T = 0.728, density = 0.8442):
+- Temperature: 1.5043 +/- 0.0008
+- Pressure: 5.16 +/- 0.02
+- Kinetic energy per particle: 2.2564 +/- 0.0012
+- Potential energy per particle: -4.4190 +/- 0.0012
+
+The errors calculated from mine are the standard errors, whilst F&S are from block averages. Differences in the values are due the differences in the initial conditions (position and velocity).
 
 ### Visualisation with OVITO:
 
 Files were generated every 20 steps, and the animation is 25 frames a second. The particles' size have been scaled down to 50%.
 
 ![simulation](https://github.com/user-attachments/assets/95f2bb4b-5a1b-4be7-8000-364ab31f43d8)
-
-Simulation times will vary depending on the parameters as well as the computer specs. This took about a minute to run, or 30 seconds if I chose not to save the position data.
 
 ## Comments and Further Work
 I have learnt quite a lot about both Python and molecular dynamics. Some caveats though are that the code is not optimised, though where possible I have tried (e.g. vectorising instead of using for loops), and that the code is not rigorously tested.
